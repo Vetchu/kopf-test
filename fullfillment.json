@@ -1,0 +1,5952 @@
+{
+  "checkoutForms": [
+    {
+      "id": "b9b7cb90-92ff-11ee-ba4c-bb0056a35319",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "5860007",
+        "email": "22bpt3tgmp+7ce2c1095@allegromail.pl",
+        "login": "DB-1984",
+        "firstName": "Dawid",
+        "lastName": "Berezicki",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 663 257 814",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "ul. Dalsza 5",
+          "city": "Piława Górna",
+          "postCode": "58-240",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "c44a18af-92ff-11ee-8775-8b3b3187c6ab",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T23:49:56.563Z",
+        "paidAmount": {
+          "amount": "250.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Dawid",
+          "lastName": "Berezicki",
+          "street": "Dalsza 5",
+          "city": "Piława Górna",
+          "zipCode": "58-240",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48663257814",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "0e4c7d59-64b6-4b06-89c3-c1d941506dd0",
+          "name": "Allegro Kurier UPS"
+        },
+        "pickupPoint": null,
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-06T23:00:00Z",
+          "to": "2023-12-08T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-05T23:00:00Z",
+            "to": "2023-12-06T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "b9b24d50-92ff-11ee-ba4c-bb0056a35319",
+          "offer": {
+            "id": "14686203419",
+            "name": "Bibljoteka Wielkich Pisarzów - 14 książek",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "250.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "250.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T23:49:49.049Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "250.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T23:49:56.563Z",
+      "revision": "b3a81206"
+    },
+    {
+      "id": "b5c50730-92f7-11ee-a63c-edb9c85cd056",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "25434947",
+        "email": "nmrepfhlm0+72c81ddd6@allegromail.pl",
+        "login": "S_Agus_94",
+        "firstName": "Agnieszka",
+        "lastName": "Socha",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 516 375 938",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Okuniewska 81",
+          "city": "Sulejówek",
+          "postCode": "05-070",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "c9cce5c9-92f7-11ee-a6ab-5f6156779bc5",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T22:53:06.649Z",
+        "paidAmount": {
+          "amount": "28.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Agnieszka",
+          "lastName": "Socha",
+          "street": "Okuniewska 81",
+          "city": "Sulejówek",
+          "zipCode": "05-070",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48516375938",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "SUJ06M",
+          "name": "Paczkomat SUJ06M",
+          "description": "Przy parkingu",
+          "address": {
+            "street": "Piłsudskiego 2",
+            "zipCode": "05-070",
+            "city": "Sulejówek",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "b5bca2c0-92f7-11ee-a63c-edb9c85cd056",
+          "offer": {
+            "id": "14363638003",
+            "name": "Martynka i... komplet 3 książek",
+            "external": {
+              "id": "9(10)23"
+            }
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "18.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "18.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T22:52:54.420Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "28.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T22:53:06.649Z",
+      "revision": "3294a91d"
+    },
+    {
+      "id": "5b369291-92f5-11ee-b414-7f771d22d7ba",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "11614321",
+        "email": "3k3hk1qz6m+116bcba54@allegromail.pl",
+        "login": "NimbusBeta",
+        "firstName": "Wiesław",
+        "lastName": "Danyłko",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 511 086 077",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Dworcowa 11D",
+          "city": "Bełk",
+          "postCode": "44-230",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "7183f464-92f5-11ee-a6ab-5f6156779bc5",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T22:36:14.585Z",
+        "paidAmount": {
+          "amount": "165.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Wiesław",
+          "lastName": "Danyłko",
+          "street": "Dworcowa 11D",
+          "city": "Bełk",
+          "zipCode": "44-230",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48511086077",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "BEK01N",
+          "name": "Paczkomat BEK01N",
+          "description": "Przy sklepie Odido",
+          "address": {
+            "street": "Główna 70D",
+            "zipCode": "44-237",
+            "city": "Bełk",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "5b2d91e1-92f5-11ee-b414-7f771d22d7ba",
+          "offer": {
+            "id": "14221467437",
+            "name": "Instrukcja Piechoty 7,62mm PISTOLET MASZYNOWY",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "165.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "165.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T22:36:07.908Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "165.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T22:36:14.585Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "d26c9132-92f4-11ee-9a3b-9f051e1e9499",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "91550558",
+        "email": "5u02b3bta8+762c93747@allegromail.pl",
+        "login": "Client:91550558",
+        "firstName": "Wojciech",
+        "lastName": "Marzec",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 537 317 979",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Armii Krajowej 26",
+          "city": "Szewna",
+          "postCode": "27-400",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "e607cb2b-92f4-11ee-826d-6347c80f10ac",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T22:32:04.112Z",
+        "paidAmount": {
+          "amount": "38.25",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Wojciech",
+          "lastName": "Marzec",
+          "street": "os. Hutnicze 15",
+          "city": "Kraków",
+          "zipCode": "31-919",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48537317979",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "KRA204M",
+          "name": "Paczkomat KRA204M",
+          "description": "obok sklepu Lidl od str. al. Jana Pawła II",
+          "address": {
+            "street": "os. Centrum E 1",
+            "zipCode": "31-934",
+            "city": "Kraków",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "d26230f2-92f4-11ee-9a3b-9f051e1e9499",
+          "offer": {
+            "id": "11842366105",
+            "name": "Jedyne konieczne Unum necessarium J Amos Komeński",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "27.30",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "27.30",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T22:31:59.037Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "38.25",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T22:32:04.112Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "3a5e05e0-92f4-11ee-aca0-7741fc4c961f",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "39153062",
+        "email": "r3ooviojv8+4f0d0d0c8@allegromail.pl",
+        "login": "pubp",
+        "firstName": "Igor",
+        "lastName": "Drzewiecki",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 531 524 934",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Rogalskiego 10/30",
+          "city": "Warszawa",
+          "postCode": "03-982",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "523d527a-92f4-11ee-a37f-558897826a62",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T22:28:12.288Z",
+        "paidAmount": {
+          "amount": "64.99",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Igor",
+          "lastName": "Drzewiecki",
+          "street": "Rogalskiego 10/30",
+          "city": "Warszawa",
+          "zipCode": "03-982",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48531524934",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "0aafb43c-e66a-46ec-9cc4-29bb39ebb483",
+          "name": "Allegro One Box"
+        },
+        "pickupPoint": {
+          "id": "AL014WF1",
+          "name": "Allegro One Box, zielony automat",
+          "description": "Zielony automat paczkowy przy narożniku budynku usługowo-handlowego",
+          "address": {
+            "street": "Rogalskiego 1E",
+            "zipCode": "03-982",
+            "city": "Warszawa",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "9.99",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-06T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-05T22:59:59.999Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "3a563db0-92f4-11ee-aca0-7741fc4c961f",
+          "offer": {
+            "id": "14714395217",
+            "name": "Twierdza Tarnopol 1944 - Gert Fricke",
+            "external": {
+              "id": "00000016"
+            }
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "55.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "55.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T22:28:00.652Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "64.99",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T22:28:12.288Z",
+      "revision": "3294a91d"
+    },
+    {
+      "id": "65c90a50-92ee-11ee-9494-d7ba5d26b19b",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "2527773",
+        "email": "tolv11zqr8+6db4b96e0@allegromail.pl",
+        "login": "barca69",
+        "firstName": "Marcin",
+        "lastName": "Wojtanowski",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 58 346 27 96",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Chłodna 1/18",
+          "city": "Gdańsk",
+          "postCode": "80-744",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "660f8a05-92ee-11ee-a914-6fc9c43cb444",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T21:46:27.311Z",
+        "paidAmount": {
+          "amount": "40.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Marcin",
+          "lastName": "Wojtanowski",
+          "street": "Sikorskiego 23/12",
+          "city": "Malbork",
+          "zipCode": "82-200",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48506974527",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "MAL04N",
+          "name": "Paczkomat MAL04N",
+          "description": "Przy sklepie monopolowym",
+          "address": {
+            "street": "Konopnickiej 14",
+            "zipCode": "82-200",
+            "city": "Malbork",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "65c030b0-92ee-11ee-9494-d7ba5d26b19b",
+          "offer": {
+            "id": "14778067219",
+            "name": "Trzynastoletnia wojna z Zakonem Krzyżackim 1454-1466 M. Biskup",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "30.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "30.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T21:46:00.277Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "40.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T21:46:27.311Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "d4007bd0-92ed-11ee-b56b-e3e875a83877",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "4815482",
+        "email": "akpvi9xnne+14558ad27@allegromail.pl",
+        "login": "jz79mm",
+        "firstName": "Andrzej",
+        "lastName": "Rolski",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 603 911 686",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Aleksandry 5/61",
+          "city": "Krakow",
+          "postCode": "30-837",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "d954030b-92ed-11ee-bcf1-894fb68be25b",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T21:42:10.415Z",
+        "paidAmount": {
+          "amount": "19.99",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Andrzej",
+          "lastName": "Rolski",
+          "street": "Klasztorna 37 B",
+          "city": "Krakow",
+          "zipCode": "31-979",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48603911686",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "0aafb43c-e66a-46ec-9cc4-29bb39ebb483",
+          "name": "Allegro One Box"
+        },
+        "pickupPoint": {
+          "id": "AL168KR1",
+          "name": "Allegro One Box, zielony automat",
+          "description": "Na prywatnej posesji, przy ul. Zagłoby 8",
+          "address": {
+            "street": "Zagłoby 8",
+            "zipCode": "31-980",
+            "city": "Kraków",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "9.99",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-06T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-05T22:59:59.999Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "d3fa8860-92ed-11ee-b56b-e3e875a83877",
+          "offer": {
+            "id": "14736338483",
+            "name": "Rok 1984 George Orwell",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "10.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "10.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T21:41:48.636Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "19.99",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T21:42:10.415Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "c85a43c0-92ec-11ee-ab38-3dd68be36eb3",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "34766924",
+        "email": "4n6x7dibiq+390468ae8@allegromail.pl",
+        "login": "betaa19",
+        "firstName": "beata",
+        "lastName": "kiss-orska",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 505 209 130",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "kwaskowa góra 24",
+          "city": "kazimierz dolny",
+          "postCode": "24-120",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "c89be13e-92ec-11ee-bcf1-894fb68be25b",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T21:37:48.972Z",
+        "paidAmount": {
+          "amount": "39.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "beata",
+          "lastName": "kiss-orska",
+          "street": "kwaskowa góra 24",
+          "city": "kazimierz dolny",
+          "zipCode": "24-120",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48505209130",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "KDO01M",
+          "name": "Paczkomat KDO01M",
+          "description": "Na parkingu przy Orlenie",
+          "address": {
+            "street": "Doktora Tadeusza Tyszkiewicza 31",
+            "zipCode": "24-120",
+            "city": "Kazimierz Dolny",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "c84fbc70-92ec-11ee-ab38-3dd68be36eb3",
+          "offer": {
+            "id": "14758453236",
+            "name": "Myślę, że wiem najważniejsze Czapski-Colin",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "29.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "29.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T21:34:03.413Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "39.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T21:37:48.972Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "c9d85840-92ec-11ee-b749-436ed9df90c6",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "16221365",
+        "email": "p0osv1hxnq+6925d4aa0@allegromail.pl",
+        "login": "Jasaso",
+        "firstName": "Jan",
+        "lastName": "Saborin",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 505 948 905",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Stawowa 1/25",
+          "city": "Sosnowiec",
+          "postCode": "41-214",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "ca27b1a6-92ec-11ee-a6ab-5f6156779bc5",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T21:34:52.798Z",
+        "paidAmount": {
+          "amount": "38.35",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Jan",
+          "lastName": "Saborin",
+          "street": "Stawowa 1/25",
+          "city": "Sosnowiec",
+          "zipCode": "41-214",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48505948905",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "SOS12N",
+          "name": "Paczkomat SOS12N",
+          "description": "Przy biurowcu Szkłobudowa, przy hurtowni motoryzacyjnej Polcar",
+          "address": {
+            "street": "Stawowa 4",
+            "zipCode": "41-200",
+            "city": "Sosnowiec",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "c9d0b720-92ec-11ee-b749-436ed9df90c6",
+          "offer": {
+            "id": "12223614628",
+            "name": "Społeczeństwo i moralność Janusz Mariański",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "9.56",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "9.56",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T21:33:48.483Z"
+        },
+        {
+          "id": "c9d0b721-92ec-11ee-b749-436ed9df90c6",
+          "offer": {
+            "id": "12344489654",
+            "name": "Współczesne społeczeństwo polskie, dynamika zmian",
+            "external": {
+              "id": "06/09"
+            }
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "17.84",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "17.84",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T21:33:48.483Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "38.35",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T21:34:52.798Z",
+      "revision": "1b08f74a"
+    },
+    {
+      "id": "8c91a870-92eb-11ee-9494-d7ba5d26b19b",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "1080919",
+        "email": "oyi7xhwpbw+2a4f37872@allegromail.pl",
+        "login": "ksol76",
+        "firstName": "Krzysztof",
+        "lastName": "Sowiński",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 604 166 940",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Zamenhofa 1/7",
+          "city": "Gorzów Wlkp.",
+          "postCode": "66-400",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "8cc5d86a-92eb-11ee-8775-8b3b3187c6ab",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T21:27:35.353Z",
+        "paidAmount": {
+          "amount": "37.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Krzysztof",
+          "lastName": "Sowiński",
+          "street": "Zamenhofa 1/7",
+          "city": "Gorzów Wlkp.",
+          "zipCode": "66-400",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48604166940",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "GWI02A",
+          "name": "Paczkomat GWI02A",
+          "description": "Z tyłu marketu Intermarche od strony Stacji Benzynowej",
+          "address": {
+            "street": "Pomorska 71",
+            "zipCode": "66-400",
+            "city": "Gorzów Wielkopolski",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "8c89e040-92eb-11ee-9494-d7ba5d26b19b",
+          "offer": {
+            "id": "14804546422",
+            "name": "Morskie imperium Hiszpani - J.H. Parry",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "27.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "27.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T21:26:03.029Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "37.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T21:27:35.353Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "a96b3ef0-92e8-11ee-a0da-d1a5e95eccd5",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "107053972",
+        "email": "2h29w67sc5+69aba85f0@allegromail.pl",
+        "login": "Client:107053972",
+        "firstName": "Makary",
+        "lastName": "Szwed",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 602 789 583",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Grunwaldzka 63/1",
+          "city": "Elbląg",
+          "postCode": "82-300",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "d0d0d9c5-92e8-11ee-8775-8b3b3187c6ab",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T21:06:56.107Z",
+        "paidAmount": {
+          "amount": "140.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Makary",
+          "lastName": "Szwed",
+          "street": "Grunwaldzka 63/1",
+          "city": "Elbląg",
+          "zipCode": "82-300",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48602789583",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "c3066682-97a3-42fe-9eb5-3beeccab840c",
+          "name": "Allegro Kurier DPD"
+        },
+        "pickupPoint": null,
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "a963c4e0-92e8-11ee-a0da-d1a5e95eccd5",
+          "offer": {
+            "id": "13844601907",
+            "name": "Historya Kościoła Świętego Katolickiego. Tom II",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "140.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "140.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T21:06:48.504Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "140.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T21:06:56.107Z",
+      "revision": "b3a81206"
+    },
+    {
+      "id": "06b15650-92e7-11ee-9273-67b61f7f4d7e",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "88955836",
+        "email": "375rsrvfyg+39b71b954@allegromail.pl",
+        "login": "Alena_Veraksa",
+        "firstName": "Alena",
+        "lastName": "Veraksa",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 575 658 967",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Warszawska, 57-71",
+          "city": "Warszawa",
+          "postCode": "02-495",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "7d134744-92e7-11ee-9174-85923266b715",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T20:58:59.475Z",
+        "paidAmount": {
+          "amount": "44.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Alena",
+          "lastName": "Veraksa",
+          "street": "Warszawska, 57-71",
+          "city": "Warszawa",
+          "zipCode": "02-495",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48575658967",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "WAW35M",
+          "name": "Paczkomat WAW35M",
+          "description": "Przy galerii na łączniku między parkingiem a ulica Warszawską",
+          "address": {
+            "street": "Warszawska 58C",
+            "zipCode": "02-496",
+            "city": "Warszawa",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "06aaedb0-92e7-11ee-9273-67b61f7f4d7e",
+          "offer": {
+            "id": "14708785816",
+            "name": "Business English Praca Zbiorowa",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "15.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "15.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T20:58:36.215Z"
+        },
+        {
+          "id": "06aaedb1-92e7-11ee-9273-67b61f7f4d7e",
+          "offer": {
+            "id": "14570432442",
+            "name": "Business Result Intermediate Students",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "29.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "29.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T20:58:36.215Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "44.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T20:58:59.475Z",
+      "revision": "819b5836"
+    },
+    {
+      "id": "c93aee81-92e6-11ee-9e1a-8f37c510f20e",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "88977160",
+        "email": "l5tkipvnjf+284052be5@allegromail.pl",
+        "login": "tooomiiii",
+        "firstName": "Tobiasz",
+        "lastName": "Bernaś",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 508 527 779",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Armii Krajowej 8/71",
+          "city": "Tychy",
+          "postCode": "43-100",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "cdd166e8-92e6-11ee-bcf1-894fb68be25b",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T20:52:07.369Z",
+        "paidAmount": {
+          "amount": "60.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Tobiasz",
+          "lastName": "Bernaś",
+          "street": "Armii Krajowej 8/71",
+          "city": "Tychy",
+          "zipCode": "43-100",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48508527779",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "TYC06N",
+          "name": "Paczkomat TYC06N",
+          "description": "Myjnia bezdotykowa",
+          "address": {
+            "street": "Armii Krajowej 2A",
+            "zipCode": "43-100",
+            "city": "Tychy",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "c92a73c1-92e6-11ee-9e1a-8f37c510f20e",
+          "offer": {
+            "id": "13933661789",
+            "name": "Egzorcyzm w walce z demonami - Ks. A. Drabowicz",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "60.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "60.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T20:52:01.195Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "60.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T20:52:07.369Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "b91de640-92e3-11ee-b414-7f771d22d7ba",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "3564256",
+        "email": "yjla0e95oi+b5c38ae2@allegromail.pl",
+        "login": "damdab73",
+        "firstName": "Damian",
+        "lastName": "Dąbrowski",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 502 655 090",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Meander 2A/14",
+          "city": "Warszawa",
+          "postCode": "02-791",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "10ed9b8d-92e4-11ee-9174-85923266b715",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T20:31:32.813Z",
+        "paidAmount": {
+          "amount": "26.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Damian",
+          "lastName": "Dąbrowski",
+          "street": "Królowej Marysieńki 32A",
+          "city": "Warszawa",
+          "zipCode": "02-954",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48502655090",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "WAW220AP",
+          "name": "Paczkomat WAW220AP",
+          "description": "Przy sklepie WSS Społem Wola",
+          "address": {
+            "street": "Jabłonowskiego 3",
+            "zipCode": "02-956",
+            "city": "Warszawa",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "b91533b0-92e3-11ee-b414-7f771d22d7ba",
+          "offer": {
+            "id": "14708007791",
+            "name": "Autobiografia. Tom I. Dzieciństwo - Joanna Chmielewska",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "16.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "16.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T20:31:27.377Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "26.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T20:31:32.813Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "fb344df0-92e1-11ee-8603-fb7899b78e5d",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "9540283",
+        "email": "68onx59m20+6085b27e3@allegromail.pl",
+        "login": "qaz1232",
+        "firstName": "Paweł",
+        "lastName": "Kupiec",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 880 327 777",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Szobiszowicka 5/7",
+          "city": "Gliwice",
+          "postCode": "44-100",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "61070cc9-92e2-11ee-9362-0bb7483d5a66",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T20:19:56.520Z",
+        "paidAmount": {
+          "amount": "115.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Paweł",
+          "lastName": "Kupiec",
+          "street": "Szobiszowicka 5/7",
+          "city": "Gliwice",
+          "zipCode": "44-100",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48880327777",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "GLI03M",
+          "name": "Paczkomat GLI03M",
+          "description": "Na parkingu sklepu Aldi",
+          "address": {
+            "street": "Toszecka 49",
+            "zipCode": "44-102",
+            "city": "Gliwice",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "fb2cacd0-92e1-11ee-8603-fb7899b78e5d",
+          "offer": {
+            "id": "14814585891",
+            "name": "Liberalizm jest grzechem ks. Dr Felix Sarda y Salvany",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "115.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "115.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T20:19:49.595Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "115.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T20:19:56.520Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "53bab730-92dc-11ee-8603-fb7899b78e5d",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "6953432",
+        "email": "75ddq62mkl+5322cff93@allegromail.pl",
+        "login": "kaziu4444",
+        "firstName": "Piotr",
+        "lastName": "Smoliński",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 732 050 815",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Grazyny, 4/6 mieszkania 6",
+          "city": "Warsaw",
+          "postCode": "02-548",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "ed63e066-92dc-11ee-9362-0bb7483d5a66",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T19:40:43.972Z",
+        "paidAmount": {
+          "amount": "45.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Piotr",
+          "lastName": "Smoliński",
+          "street": "Grazyny, 4/6 mieszkania 6",
+          "city": "Warsaw",
+          "zipCode": "02-548",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48732050815",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "08e2ef8e-90c8-49db-8970-d6c2773f1530",
+          "name": "Allegro Odbiór w Punkcie DPD Pickup"
+        },
+        "pickupPoint": {
+          "id": "PL68966",
+          "name": "DPD",
+          "description": "DPD Pickup- \"Sklep Żabka\"",
+          "address": {
+            "street": "Puławska 38 lok.  38",
+            "zipCode": "02512",
+            "city": "Warszawa",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "53b0a510-92dc-11ee-8603-fb7899b78e5d",
+          "offer": {
+            "id": "14709255567",
+            "name": "Ćpun - William S. Burroughs",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T19:40:37.191Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "45.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T19:40:43.972Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "904363a0-92dc-11ee-9da8-bd0e30814174",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "105553832",
+        "email": "esxz8g67oa+654a374e9@allegromail.pl",
+        "login": "Client:105553832",
+        "firstName": "Jacek",
+        "lastName": "Latoszek",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 503 003 356",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Kuny 8",
+          "city": "Warszawa",
+          "postCode": "02-798",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "908dda6e-92dc-11ee-8775-8b3b3187c6ab",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T19:38:37.910Z",
+        "paidAmount": {
+          "amount": "109.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Jacek",
+          "lastName": "Latoszek",
+          "street": "Kuny 8",
+          "city": "Warszawa",
+          "zipCode": "02-798",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48503003356",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "WAW28M",
+          "name": "Paczkomat WAW28M",
+          "description": "Przy sklepie Lidl",
+          "address": {
+            "street": "Jana Rosoła 18",
+            "zipCode": "02-786",
+            "city": "Warszawa",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "90397890-92dc-11ee-9da8-bd0e30814174",
+          "offer": {
+            "id": "14299275596",
+            "name": "Społeczeństwo i karczma - Józef Burszta",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "99.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "99.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T19:37:40.672Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "109.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T19:38:37.910Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "9ecbd0e0-92d9-11ee-a6d7-f599d3b20cd3",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "36180685",
+        "email": "lrd1cz5udk+4205245f9@allegromail.pl",
+        "login": "Client:36180685",
+        "firstName": "Joanna",
+        "lastName": "Końca",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 500 241 574",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Podleśna 2/3",
+          "city": "Zabrze",
+          "postCode": "41-800",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "9f30fbc5-92d9-11ee-826d-6347c80f10ac",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T19:17:13.329Z",
+        "paidAmount": {
+          "amount": "25.99",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Joanna",
+          "lastName": "Końca",
+          "street": "Podleśna 2/3",
+          "city": "Zabrze",
+          "zipCode": "41-800",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48500241574",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "0aafb43c-e66a-46ec-9cc4-29bb39ebb483",
+          "name": "Allegro One Box"
+        },
+        "pickupPoint": {
+          "id": "AL005SZ1",
+          "name": "Allegro One Box, zielony automat",
+          "description": "Przy Aptece Felix",
+          "address": {
+            "street": "Sportowa 6",
+            "zipCode": "41-800",
+            "city": "Zabrze",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "9.99",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-06T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-05T22:59:59.999Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "9ec233f0-92d9-11ee-a6d7-f599d3b20cd3",
+          "offer": {
+            "id": "14602426318",
+            "name": "Naruto TOM 8 Masashi Kishimoto",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "16.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "16.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T19:16:55.186Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "25.99",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T19:17:13.329Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "76392552-92d5-11ee-833d-4f818e15302b",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "37611641",
+        "email": "yf04y27os8+47ff75db8@allegromail.pl",
+        "login": "Aaoyaelart",
+        "firstName": "Jarosław",
+        "lastName": "Wojtyna",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 502 673 705",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Wysłouchów 35/6",
+          "city": "Kraków",
+          "postCode": "30-611",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "82665d87-92d5-11ee-9362-0bb7483d5a66",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T18:48:07.584Z",
+        "paidAmount": {
+          "amount": "56.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Jarosław",
+          "lastName": "Wojtyna",
+          "street": "wysłouchów 35/6",
+          "city": "Kraków",
+          "zipCode": "30-611",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48502673705",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "0aafb43c-e66a-46ec-9cc4-29bb39ebb483",
+          "name": "Allegro One Box"
+        },
+        "pickupPoint": {
+          "id": "AL038KR1",
+          "name": "Allegro One Box, zielony automat",
+          "description": "Po lewej stronie od wejścia do Apteki Słonecznej",
+          "address": {
+            "street": "Wysłouchów 27",
+            "zipCode": "30-611",
+            "city": "Kraków",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-06T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-05T22:59:59.999Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "762b69b3-92d5-11ee-833d-4f818e15302b",
+          "offer": {
+            "id": "14416163194",
+            "name": "Praktyka Zen Praca zbiorowa",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "26.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "26.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T18:47:48.419Z"
+        },
+        {
+          "id": "762b69b4-92d5-11ee-833d-4f818e15302b",
+          "offer": {
+            "id": "14730832261",
+            "name": "Prawosławie - Paul Evdokimov",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "30.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "30.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T18:47:48.419Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "56.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T18:48:07.584Z",
+      "revision": "819b5836"
+    },
+    {
+      "id": "bb143d30-92d1-11ee-90a7-475900396399",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "3148651",
+        "email": "69oxic2rkr+60d4e9f58@allegromail.pl",
+        "login": "aldie",
+        "firstName": "Adrian",
+        "lastName": "Kuśmierz",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 729 069 696",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Chopina 11/12",
+          "city": "Kraśnik",
+          "postCode": "23-200",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "bb50aa81-92d1-11ee-bcf1-894fb68be25b",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T18:20:50.171Z",
+        "paidAmount": {
+          "amount": "66.50",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Adrian",
+          "lastName": "Kuśmierz",
+          "street": "Plac Kościuszki 16/4",
+          "city": "Wrocław",
+          "zipCode": "50-027",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48729069696",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "WRO153M",
+          "name": "Paczkomat WRO153M",
+          "description": "Przy wejściu do budynku od Komandorskiej",
+          "address": {
+            "street": "Piłsudskiego 69/73",
+            "zipCode": "50-019",
+            "city": "Wrocław",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "bb0e49c0-92d1-11ee-90a7-475900396399",
+          "offer": {
+            "id": "11940886179",
+            "name": "Peyotyzm Religia Indian Ameryki Północnej",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "66.50",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "66.50",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T18:20:35.001Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "66.50",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T18:20:50.171Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "eaa5af40-92ca-11ee-9f0c-0bd80f0df914",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "39175736",
+        "email": "au78ud0h5c+1284dd5d6@allegromail.pl",
+        "login": "kamila_gwiazda",
+        "firstName": "Kamila",
+        "lastName": "Gwiazda",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 721 088 062",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Brzezińskiego 4",
+          "city": "Strzałkowo",
+          "postCode": "62-420",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "04ed48ef-92cb-11ee-9362-0bb7483d5a66",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T17:32:16.480Z",
+        "paidAmount": {
+          "amount": "25.99",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Kamila",
+          "lastName": "Gwiazda",
+          "street": "Bratumiły 6/63",
+          "city": "Poznan",
+          "zipCode": "61-608",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48721088062",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "0aafb43c-e66a-46ec-9cc4-29bb39ebb483",
+          "name": "Allegro One Box"
+        },
+        "pickupPoint": {
+          "id": "AL012PO1",
+          "name": "Allegro One Box, zielony automat",
+          "description": "Po prawej stronie przy sklepie ELKAZ",
+          "address": {
+            "street": "ul. Naramowicka 236",
+            "zipCode": "61-601",
+            "city": "Poznań",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "9.99",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-06T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-05T22:59:59.999Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "ea9c3960-92ca-11ee-9f0c-0bd80f0df914",
+          "offer": {
+            "id": "14649073520",
+            "name": "Ostatni Katon - Matilde Aseni",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "16.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "16.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T17:32:12.242Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "25.99",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T17:32:16.480Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "0d5b2430-92ca-11ee-b17a-bbb03ba5130f",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "330560",
+        "email": "2tdrl60qzw+39a6179c3@allegromail.pl",
+        "login": "tomi_o",
+        "firstName": "Monika",
+        "lastName": "Ośmiałowska",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 603 714 548",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Wybudowanie 1",
+          "city": "Chełmno",
+          "postCode": "86-200",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "0db9bf9e-92ca-11ee-a37f-558897826a62",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T17:26:20.697Z",
+        "paidAmount": {
+          "amount": "80.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Tomasz",
+          "lastName": "Ośmiałowski",
+          "street": "Wybudowanie 1",
+          "city": "Chełmno",
+          "zipCode": "86-200",
+          "countryCode": "PL",
+          "companyName": "Sadpol",
+          "phoneNumber": "+48607345054",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "CHM01M",
+          "name": "Paczkomat CHM01M",
+          "description": "Na prawo od wejścia do sklepu Lidl",
+          "address": {
+            "street": "Polna 39",
+            "zipCode": "86-200",
+            "city": "Chełmno",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "0d535c00-92ca-11ee-b17a-bbb03ba5130f",
+          "offer": {
+            "id": "14596208574",
+            "name": "Rok 1984 George Orwell",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "35.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "35.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T17:26:09.016Z"
+        },
+        {
+          "id": "0d535c01-92ca-11ee-b17a-bbb03ba5130f",
+          "offer": {
+            "id": "14778293208",
+            "name": "Zbrodnia i Kara F. Dostojewski",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T17:26:09.016Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "80.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T17:26:20.697Z",
+      "revision": "819b5836"
+    },
+    {
+      "id": "d2861b30-92c9-11ee-b749-436ed9df90c6",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "17725555",
+        "email": "w15ch37zst+1f41c3dd5@allegromail.pl",
+        "login": "zernam",
+        "firstName": "Jerzy",
+        "lastName": "Różański",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 667 136 962",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Jana Pawła 24/101",
+          "city": "Piaseczno",
+          "postCode": "05-500",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "e2348a9b-92c9-11ee-a6ab-5f6156779bc5",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T17:24:11.989Z",
+        "paidAmount": {
+          "amount": "48.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Jerzy",
+          "lastName": "Różański",
+          "street": "Jana Pawła 24/101",
+          "city": "Piaseczno",
+          "zipCode": "05-500",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48667136962",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "0aafb43c-e66a-46ec-9cc4-29bb39ebb483",
+          "name": "Allegro One Box"
+        },
+        "pickupPoint": {
+          "id": "AL025WPI",
+          "name": "Allegro One Box, zielony automat",
+          "description": "Przy 3-piętrowym budynku usługowo-mieszkalnym, obok wjazdu do garażu podziemnego",
+          "address": {
+            "street": "Jana Pawła II 9",
+            "zipCode": "05-500",
+            "city": "Piaseczno",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-06T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-05T22:59:59.999Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "d27c7e40-92c9-11ee-b749-436ed9df90c6",
+          "offer": {
+            "id": "14484161661",
+            "name": "Algebra z Geometrią Jacek Komorowski",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "20.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "20.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T17:24:02.064Z"
+        },
+        {
+          "id": "d27c7e41-92c9-11ee-b749-436ed9df90c6",
+          "offer": {
+            "id": "14438981850",
+            "name": "Eliot poezje Thomas Stearns",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "28.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "28.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T17:24:02.064Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "48.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T17:24:11.989Z",
+      "revision": "819b5836"
+    },
+    {
+      "id": "f48ca7f1-92c7-11ee-84cd-9180ff6efc74",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "115594432",
+        "email": "i1cjin5n9i+3c7a35cc3@allegromail.pl",
+        "login": "Client:115594432",
+        "firstName": "Andrzej",
+        "lastName": "Mazur",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 664 633 462",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Terenowa, 46",
+          "city": "Wrocław",
+          "postCode": "52-231",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "91e655ff-92c8-11ee-8775-8b3b3187c6ab",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T17:17:44.707Z",
+        "paidAmount": {
+          "amount": "148.99",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Andrzej",
+          "lastName": "Mazur",
+          "street": "Terenowa, 46",
+          "city": "Wrocław",
+          "zipCode": "52-231",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48664633462",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "0e4c7d59-64b6-4b06-89c3-c1d941506dd0",
+          "name": "Allegro Kurier UPS"
+        },
+        "pickupPoint": null,
+        "cost": {
+          "amount": "13.99",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-06T23:00:00Z",
+          "to": "2023-12-08T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-05T22:59:59.999Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "f46b6451-92c7-11ee-84cd-9180ff6efc74",
+          "offer": {
+            "id": "14742373703",
+            "name": "Listy - Św. Bazyli Wielki",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "135.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "135.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T17:15:50.826Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "148.99",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T17:17:44.707Z",
+      "revision": "b3a81206"
+    },
+    {
+      "id": "d94132e0-92c7-11ee-ba4c-bb0056a35319",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "3824081",
+        "email": "cer974x53u+505b57fd1@allegromail.pl",
+        "login": "monstera",
+        "firstName": "Magdalena",
+        "lastName": "Młodawska",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 602 339 663",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Wawel 9/29",
+          "city": "Kraków",
+          "postCode": "31-001",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "d98233d1-92c7-11ee-bcf1-894fb68be25b",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T17:09:58.280Z",
+        "paidAmount": {
+          "amount": "47.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Magdalena",
+          "lastName": "Młodawska",
+          "street": "ul Grzegórzecka 77/25",
+          "city": "Kraków",
+          "zipCode": "31-559",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48602339663",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "0aafb43c-e66a-46ec-9cc4-29bb39ebb483",
+          "name": "Allegro One Box"
+        },
+        "pickupPoint": {
+          "id": "AL344KR1",
+          "name": "Allegro One Box, zielony automat",
+          "description": "Obok firmy Bonadent",
+          "address": {
+            "street": "Stefana Rogozińskiego 1",
+            "zipCode": "31-559",
+            "city": "Kraków",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-06T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-05T22:59:59.999Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "d937bd01-92c7-11ee-ba4c-bb0056a35319",
+          "offer": {
+            "id": "14663048959",
+            "name": "Jagiellonowie M. Duczmal",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "35.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "35.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T17:09:47.535Z"
+        },
+        {
+          "id": "d937bd00-92c7-11ee-ba4c-bb0056a35319",
+          "offer": {
+            "id": "13246130812",
+            "name": "Przemiany dziejowe otoczenia wawelu",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "12.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "12.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T17:09:47.535Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "47.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T17:09:58.280Z",
+      "revision": "819b5836"
+    },
+    {
+      "id": "1e4325f0-92bf-11ee-a5f2-07ab426984a5",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "42976650",
+        "email": "8e1o5i5epl+1a0c51a10@allegromail.pl",
+        "login": "Client:42976650",
+        "firstName": "Bartłomiej",
+        "lastName": "Pych",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 577 579 883",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Marymoncka 137/139 m.17",
+          "city": "Warszawa",
+          "postCode": "01-946",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "1e958bb6-92bf-11ee-8775-8b3b3187c6ab",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T16:16:17.591Z",
+        "paidAmount": {
+          "amount": "89.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Bartłomiej",
+          "lastName": "Pych",
+          "street": "Marymoncka 137/139 m.17",
+          "city": "Warszawa",
+          "zipCode": "01-946",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48577579883",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "WAW115A",
+          "name": "Paczkomat WAW115A",
+          "description": "teren zielony przed marketem",
+          "address": {
+            "street": "Przy Agorze 1A",
+            "zipCode": "01-960",
+            "city": "Warszawa",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "1e3ce460-92bf-11ee-a5f2-07ab426984a5",
+          "offer": {
+            "id": "13854736107",
+            "name": "Ostpreussen Wspomnienia Polaków wywiezionych na roboty przymusowe do Prus W",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "89.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "89.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T16:16:02.946Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "89.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T16:16:17.591Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "ccaaf350-92b7-11ee-a63c-edb9c85cd056",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "2783232",
+        "email": "d8438o5kkq+53e5af9e1@allegromail.pl",
+        "login": "kasambert",
+        "firstName": "Bartosz",
+        "lastName": "Namaczyński",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 509 858 838",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "ul. Krupówki 50",
+          "city": "Zakopane",
+          "postCode": "34-500",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "d18970ed-92b7-11ee-8bda-7de37a453df0",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T15:16:24.575Z",
+        "paidAmount": {
+          "amount": "563.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Bartosz",
+          "lastName": "Namaczyński",
+          "street": "ul. Krupówki 50",
+          "city": "Zakopane",
+          "zipCode": "34-500",
+          "countryCode": "PL",
+          "companyName": "Firma Księgarsko-Wydawnicza \"Kanon\"",
+          "phoneNumber": "+48509858838",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "c3066682-97a3-42fe-9eb5-3beeccab840c",
+          "name": "Allegro Kurier DPD"
+        },
+        "pickupPoint": null,
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": true,
+        "address": {
+          "street": "os. Tysiąclecia 21/37",
+          "city": "Kraków",
+          "zipCode": "31-607",
+          "countryCode": "PL",
+          "company": {
+            "name": "Firma Księgarsko-Wydawnicza Kanon",
+            "taxId": "9451534808"
+          },
+          "naturalPerson": null
+        },
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "cca17d72-92b7-11ee-a63c-edb9c85cd056",
+          "offer": {
+            "id": "14176433447",
+            "name": "Na skalnem Podhalu - Kazimierz Tetmajer",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "500.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "500.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T15:14:52.286Z"
+        },
+        {
+          "id": "cca17d70-92b7-11ee-a63c-edb9c85cd056",
+          "offer": {
+            "id": "14476970122",
+            "name": "Tatry Polskie mapa topograficzna w skali 1:10000",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T15:14:52.286Z"
+        },
+        {
+          "id": "cca17d71-92b7-11ee-a63c-edb9c85cd056",
+          "offer": {
+            "id": "14813403983",
+            "name": "Tatry międzywojenne; Jarosław Skowroński",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "18.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "18.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T15:14:52.286Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "563.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T15:16:24.575Z",
+      "revision": "1b08f74a"
+    },
+    {
+      "id": "7bc14170-92b6-11ee-a3ea-e13887ec2e5f",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "104722896",
+        "email": "m7pfm7zcia+177b0893@allegromail.pl",
+        "login": "Client:104722896",
+        "firstName": "Marcelina",
+        "lastName": "Oliszewska",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 883 130 308",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Leśna 55",
+          "city": "Zabierzów",
+          "postCode": "32-080",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "7c0c5524-92b6-11ee-a37f-558897826a62",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T15:06:00.063Z",
+        "paidAmount": {
+          "amount": "20.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Marcelina",
+          "lastName": "Oliszewska",
+          "street": "Lesna, 55",
+          "city": "Zabierzow",
+          "zipCode": "32-080",
+          "countryCode": "PL",
+          "companyName": "Inpost",
+          "phoneNumber": "+48883130308",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "ZBR01N",
+          "name": "Paczkomat ZBR01N",
+          "description": "Przy wjeździe na parking",
+          "address": {
+            "street": "Leśna 2A",
+            "zipCode": "32-080",
+            "city": "Zabierzów",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "7bb867d0-92b6-11ee-a3ea-e13887ec2e5f",
+          "offer": {
+            "id": "14705672763",
+            "name": "Hamlet. Romeo i Julia - William Shakespeare",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "10.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "10.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T15:05:50.651Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "20.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T15:06:00.063Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "7acc0170-92b5-11ee-a63c-edb9c85cd056",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "38181357",
+        "email": "3wcisjmuk1+54de107c4@allegromail.pl",
+        "login": "Client:38181357",
+        "firstName": "Agnieszka",
+        "lastName": "Zamorowska",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 793 971 417",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Czarne Błoto 8",
+          "city": "Zławieś Wielka",
+          "postCode": "87-134",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "7b11e4df-92b5-11ee-8c63-3d214d660525",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T14:58:15.674Z",
+        "paidAmount": {
+          "amount": "60.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Agnieszka",
+          "lastName": "Zamorowska",
+          "street": "Wyszyńskiego 22E/56",
+          "city": "Toruń",
+          "zipCode": "87-100",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48793971417",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "TOR41M",
+          "name": "Paczkomat TOR41M",
+          "description": "przy pawilonie Maciej",
+          "address": {
+            "street": "Konstytucji 3 Maja 10",
+            "zipCode": "87-100",
+            "city": "Toruń",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "7ac300c0-92b5-11ee-a63c-edb9c85cd056",
+          "offer": {
+            "id": "14062087138",
+            "name": "Misterium Eucharystii - Henryk Paprocki",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "60.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "60.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T14:58:04.415Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "60.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T14:58:15.674Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "71678690-92b5-11ee-b9f4-8b9d86a82ddc",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "85779662",
+        "email": "nahye13iy5+65cacb7d7@allegromail.pl",
+        "login": "Client:85779662",
+        "firstName": "Beata",
+        "lastName": "Cefal",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 504 234 574",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Goslara 12",
+          "city": "Bochnia",
+          "postCode": "32-700",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "71a15c29-92b5-11ee-a37f-558897826a62",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T14:57:58.822Z",
+        "paidAmount": {
+          "amount": "34.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Sylwester",
+          "lastName": "Cefal",
+          "street": "Goslara 12",
+          "city": "Bochnia",
+          "zipCode": "32-700",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48723582599",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "BOC06M",
+          "name": "Paczkomat BOC06M",
+          "description": "Parking przy markecie NeoDom",
+          "address": {
+            "street": "Wiśnicka 15a 15A",
+            "zipCode": "32-700",
+            "city": "Bochnia",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "715e37c0-92b5-11ee-b9f4-8b9d86a82ddc",
+          "offer": {
+            "id": "14784149663",
+            "name": "Powstanie '44 - Norman Davies",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "24.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "24.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T14:57:49.451Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "34.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T14:57:58.822Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "33d0d770-92b3-11ee-ac5f-adb0165f4f3b",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "101502651",
+        "email": "6323ew3gg0+195aaf260@allegromail.pl",
+        "login": "Client:101502651",
+        "firstName": "Alicja",
+        "lastName": "Dzik",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 607 376 979",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Ławy, 11",
+          "city": "Myślibórz",
+          "postCode": "74-300",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "341708d0-92b3-11ee-bcf1-894fb68be25b",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T14:45:15.760Z",
+        "paidAmount": {
+          "amount": "45.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Alicja",
+          "lastName": "Dzik",
+          "street": "Ławy, 11",
+          "city": "Myślibórz",
+          "zipCode": "74-300",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48607376979",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "MLB03M",
+          "name": "Paczkomat MLB03M",
+          "description": "Na parkingu sklepu Lidl",
+          "address": {
+            "street": "Łużycka 30b",
+            "zipCode": "74-300",
+            "city": "Myślibórz",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "33ca47c0-92b3-11ee-ac5f-adb0165f4f3b",
+          "offer": {
+            "id": "14777261015",
+            "name": "Samolubny Gen Richard Dawkins",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "35.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "35.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T14:43:18.492Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "45.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T14:45:15.760Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "02beb270-92b2-11ee-b06c-8b6514b99e86",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "10766537",
+        "email": "gwxy04w8my+5ce739a1@allegromail.pl",
+        "login": "Alfred371",
+        "firstName": "Adrian",
+        "lastName": "Stachowicz",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 790 250 607",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Grunwaldzka 12/10",
+          "city": "Chojnów",
+          "postCode": "59-225",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "030dbd27-92b2-11ee-a37f-558897826a62",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T14:37:35.827Z",
+        "paidAmount": {
+          "amount": "40.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Adrian",
+          "lastName": "Stachowicz",
+          "street": "Łokietka 3D /10",
+          "city": "Chojnów",
+          "zipCode": "59-225",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48790250607",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "CHW03M",
+          "name": "Paczkomat CHW03M",
+          "description": "Obok wejścia do apteki",
+          "address": {
+            "street": "Jana Kilińskiego 36",
+            "zipCode": "59-225",
+            "city": "Chojnów",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "02b6ea40-92b2-11ee-b06c-8b6514b99e86",
+          "offer": {
+            "id": "14654761463",
+            "name": "Pamiętnik narkomanki - Barbara Rosiek",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "30.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "30.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T14:33:39.441Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "40.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T14:37:35.827Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "8105fbe0-92ab-11ee-a0da-d1a5e95eccd5",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "34603728",
+        "email": "jkbn3ju71h+29459d581@allegromail.pl",
+        "login": "Client:34603728",
+        "firstName": "Ludwik",
+        "lastName": "Siembab",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 667 711 010",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Moniuszki 10/32",
+          "city": "Warszawa",
+          "postCode": "00-009",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "815bbd46-92ab-11ee-826d-6347c80f10ac",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T13:46:39.437Z",
+        "paidAmount": {
+          "amount": "86.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Ludwik",
+          "lastName": "Siembab",
+          "street": "ul. Uznamska 10/8",
+          "city": "Warszawa",
+          "zipCode": "03-699",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48667711010",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "WAW165M",
+          "name": "Paczkomat WAW165M",
+          "description": "Przy wjeździe na osiedle, obok szlabanu",
+          "address": {
+            "street": "Uznamska 8",
+            "zipCode": "03-699",
+            "city": "Warszawa",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "80fcfb31-92ab-11ee-a0da-d1a5e95eccd5",
+          "offer": {
+            "id": "14787338171",
+            "name": "Pisma Teologiczne Piotr Abelard",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "66.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "66.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T13:46:33.427Z"
+        },
+        {
+          "id": "80fcfb30-92ab-11ee-a0da-d1a5e95eccd5",
+          "offer": {
+            "id": "14596110036",
+            "name": "Uzasadnienie Metafizyki Moralności Immanuel Kant",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "10.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "10.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T13:46:33.427Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "86.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T13:46:39.437Z",
+      "revision": "819b5836"
+    },
+    {
+      "id": "8fe577e0-92aa-11ee-8c1d-3b63af9a4239",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "36756907",
+        "email": "895kwbvx7x+68a671521@allegromail.pl",
+        "login": "Client:36756907",
+        "firstName": "Elwira",
+        "lastName": "Andruszczak",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 503 562 015",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Ul.5 Lipca 42a/7",
+          "city": "Szczecin",
+          "postCode": "70-375",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "9dedffdf-92aa-11ee-8775-8b3b3187c6ab",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T13:40:51.994Z",
+        "paidAmount": {
+          "amount": "58.99",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "O.Bernard",
+          "lastName": "Gonska",
+          "street": "Pocztowa 22",
+          "city": "Szczecin",
+          "zipCode": "70-361",
+          "countryCode": "PL",
+          "companyName": "Parafia Rzymskokatolicka pw.św Andrzeja Boboli",
+          "phoneNumber": "+48797002582",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "c3066682-97a3-42fe-9eb5-3beeccab840c",
+          "name": "Allegro Kurier DPD"
+        },
+        "pickupPoint": null,
+        "cost": {
+          "amount": "13.99",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "8fdb8cd0-92aa-11ee-8c1d-3b63af9a4239",
+          "offer": {
+            "id": "14812895410",
+            "name": "Na uroczystość kanonizacyjną Andrzeja Boboli 1938",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T13:40:48.820Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "58.99",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T13:40:51.994Z",
+      "revision": "b3a81206"
+    },
+    {
+      "id": "fd1675e0-92a9-11ee-8306-e9650c1f777c",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "9075146",
+        "email": "p4naxcs68o+d8e639c4@allegromail.pl",
+        "login": "mufka21",
+        "firstName": "Ewelina",
+        "lastName": "Wojdak",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 608 791 352",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Mierzwin 8B",
+          "city": "Złotniki Kujawskie",
+          "postCode": "88-180",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "fd6225c4-92a9-11ee-8cc6-3f56e027d1f4",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T13:35:50.240Z",
+        "paidAmount": {
+          "amount": "59.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Ewelina",
+          "lastName": "Wojdak",
+          "street": "Mierzwin 8B",
+          "city": "Złotniki Kujawskie",
+          "zipCode": "88-180",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48608791352",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "ZKU01M",
+          "name": "Paczkomat ZKU01M",
+          "description": "Market Dino",
+          "address": {
+            "street": "Wiejska 4",
+            "zipCode": "88-180",
+            "city": "Złotniki Kujawskie",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "fd103450-92a9-11ee-8306-e9650c1f777c",
+          "offer": {
+            "id": "13421527780",
+            "name": "Biuletyn krakowski Tom III",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "19.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "19.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T13:35:43.770Z"
+        },
+        {
+          "id": "fd103451-92a9-11ee-8306-e9650c1f777c",
+          "offer": {
+            "id": "14330709327",
+            "name": "Cenzura albo rozsądek - Stanisław Hozjusz",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "40.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "40.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T13:35:43.770Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "59.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T13:35:50.240Z",
+      "revision": "819b5836"
+    },
+    {
+      "id": "48c9f4a0-92a8-11ee-8c1d-3b63af9a4239",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "71101402",
+        "email": "x7hg5dftjh+60d70a292@allegromail.pl",
+        "login": "Client:71101402",
+        "firstName": "Michał",
+        "lastName": "Fonferek",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 532 317 964",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Braniewska 64",
+          "city": "Elbląg",
+          "postCode": "82-300",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "c6bc6389-92a8-11ee-a6ab-5f6156779bc5",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T13:27:58.617Z",
+        "paidAmount": {
+          "amount": "45.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Michał",
+          "lastName": "Fonferek",
+          "street": "Braniewska 64",
+          "city": "Elbląg",
+          "zipCode": "82-300",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48532317964",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "GDA83M",
+          "name": "Paczkomat GDA83M",
+          "description": "przy żlobku Cyprysek",
+          "address": {
+            "street": "Wielkopolska 31",
+            "zipCode": "80-180",
+            "city": "Gdańsk",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "48c1de50-92a8-11ee-8c1d-3b63af9a4239",
+          "offer": {
+            "id": "14484272692",
+            "name": "Qed osobliwa teoria światła i materii",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T13:27:55.437Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "45.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T13:27:58.617Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "c9df2e50-92a5-11ee-b890-518c5b011ee0",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "3107519",
+        "email": "f7nrctkt38+44f050bd9@allegromail.pl",
+        "login": "lidos1",
+        "firstName": "Lidia",
+        "lastName": "Piasecka",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 608 583 467",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "ul.Środkowa 3",
+          "city": "Śrem",
+          "postCode": "63-100",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "6a03b366-92b4-11ee-9362-0bb7483d5a66",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T14:52:09.521Z",
+        "paidAmount": {
+          "amount": "52.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Lidia",
+          "lastName": "Piasecka",
+          "street": "Środkowa, 3",
+          "city": "Śrem",
+          "zipCode": "63-100",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48608583467",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "SRE06M",
+          "name": "Paczkomat SRE06M",
+          "description": "Przy Markecie Mrówka",
+          "address": {
+            "street": "Gostyńska 51",
+            "zipCode": "63-100",
+            "city": "Śrem",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "c9d4f520-92a5-11ee-b890-518c5b011ee0",
+          "offer": {
+            "id": "14737872470",
+            "name": "Cuda eucharystyczne - Joan Carroll Cruz",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "15.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "15.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T13:05:38.228Z"
+        },
+        {
+          "id": "c9d4f521-92a5-11ee-b890-518c5b011ee0",
+          "offer": {
+            "id": "12975988293",
+            "name": "Sekret Świętej Teresy z Lisieux - J. W. Gogola OCD",
+            "external": {
+              "id": "12(1)"
+            }
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "13.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "13.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T13:05:38.228Z"
+        },
+        {
+          "id": "c9d4f522-92a5-11ee-b890-518c5b011ee0",
+          "offer": {
+            "id": "14276530046",
+            "name": "Serce krzyża św. Rafka; O. Antoni Szybli Olm",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "24.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "24.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T13:05:38.228Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "52.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T14:52:09.521Z",
+      "revision": "31632a8f"
+    },
+    {
+      "id": "bd1f10e0-929b-11ee-bdb2-c7c1af9423ea",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "108434801",
+        "email": "68ng4gdsge+781887718@allegromail.pl",
+        "login": "Client:108434801",
+        "firstName": "Tadeusz",
+        "lastName": "Nowicki",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 600 919 628",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Szeligowska 1a",
+          "city": "Macierzysz",
+          "postCode": "05-850",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "bd87e570-929b-11ee-826d-6347c80f10ac",
+        "type": "ONLINE",
+        "provider": "P24",
+        "finishedAt": "2023-12-04T11:54:48.516Z",
+        "paidAmount": {
+          "amount": "44.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Tadeusz",
+          "lastName": "Nowicki",
+          "street": "Szeligowska 1a",
+          "city": "Macierzysz",
+          "zipCode": "05-850",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48600919628",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "SIG01A",
+          "name": "Paczkomat SIG01A",
+          "description": "Przy budynku usługowym",
+          "address": {
+            "street": "Szeligowska 8",
+            "zipCode": "05-850",
+            "city": "Szeligi",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "bd161030-929b-11ee-bdb2-c7c1af9423ea",
+          "offer": {
+            "id": "14742790931",
+            "name": "Zestaw 2 książek Old Surehand tom I, II Karol May",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "34.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "34.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T11:54:37.010Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "44.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T11:54:48.516Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "12526ca0-9298-11ee-84ff-fd93d70049e4",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "20748445",
+        "email": "oxhatexu0n+bc356982@allegromail.pl",
+        "login": "Natka_ta7",
+        "firstName": "Barbara",
+        "lastName": "Meca",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 512 146 311",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Mickiewicza 31",
+          "city": "Chwaszczyno",
+          "postCode": "80-209",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "12a5bdab-9298-11ee-9665-0ff256f28942",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T11:34:06.942Z",
+        "paidAmount": {
+          "amount": "97.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "zielony rynek Gdańsk",
+          "lastName": "Meca",
+          "street": "Czerwony Dwór",
+          "city": "Gdańsk",
+          "zipCode": "80-365",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48512146311",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "GDA30N",
+          "name": "Paczkomat GDA30N",
+          "description": "Przy galerii Zielony Kamyk",
+          "address": {
+            "street": "Czerwony Dwór 24",
+            "zipCode": "80-376",
+            "city": "Gdańsk",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "12443bd0-9298-11ee-84ff-fd93d70049e4",
+          "offer": {
+            "id": "13751775088",
+            "name": "Księga magii ceremonialnej",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "97.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "97.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T11:27:52.955Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "97.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T11:34:06.942Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "d500cae0-9297-11ee-9721-77a1897fe363",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "10992332",
+        "email": "9nib2n9is5+74bc9c0c7@allegromail.pl",
+        "login": "SzIzabela",
+        "firstName": "Izabela",
+        "lastName": "Szostok",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 505 454 239",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Kolejowa 193",
+          "city": "Ornontowice",
+          "postCode": "43-178",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "d53e97a1-9297-11ee-8775-8b3b3187c6ab",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T19:32:54.786Z",
+        "paidAmount": {
+          "amount": "30.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Izabela",
+          "lastName": "Szostok",
+          "street": "Kolejowa 193",
+          "city": "Ornontowice",
+          "zipCode": "43-178",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48505454239",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "ORN01M",
+          "name": "Paczkomat ORN01M",
+          "description": "przed sklepem",
+          "address": {
+            "street": "Zwycięstwa 210B",
+            "zipCode": "43-178",
+            "city": "Ornontowice",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "d4fb2590-9297-11ee-9721-77a1897fe363",
+          "offer": {
+            "id": "14511818112",
+            "name": "Kalendarz św. Piotra Klawera 1936",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "20.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "20.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T11:25:58.849Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "30.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T19:32:54.786Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "619cb140-9297-11ee-b586-595285ed050a",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "300343",
+        "email": "nn2pjdtkzi+1046357e1@allegromail.pl",
+        "login": "ekoel",
+        "firstName": "Paweł",
+        "lastName": "Krasocki",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 797 675 654",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Poznańska 39",
+          "city": "Rzepin",
+          "postCode": "69-110",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "61f0c5a2-9297-11ee-8bda-7de37a453df0",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T11:23:35.291Z",
+        "paidAmount": {
+          "amount": "99.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Paweł",
+          "lastName": "Krasocki",
+          "street": "Poznańska 37",
+          "city": "Rzepin",
+          "zipCode": "69-110",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48720752312",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "RZP02M",
+          "name": "Paczkomat RZP02M",
+          "description": "na parkingu",
+          "address": {
+            "street": "Inwalidów Wojennych 1",
+            "zipCode": "69-110",
+            "city": "Rzepin",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "61944cd1-9297-11ee-b586-595285ed050a",
+          "offer": {
+            "id": "14729502576",
+            "name": "Pradawna tajemnica kwiatu życia. Tom I-II - D. Melchizedek",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "89.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "89.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-04T11:23:20.158Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "99.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T11:23:35.291Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "96df70d0-9149-11ee-ac18-b18918e4717b",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "1208914",
+        "email": "htsk3frnmd+4785b0b40@allegromail.pl",
+        "login": "friedrich",
+        "firstName": "michał",
+        "lastName": "kuziak",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 662 141 567",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Kordiana 58, m. 24",
+          "city": "Kraków",
+          "postCode": "30-653",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "971d64fc-9149-11ee-9362-0bb7483d5a66",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-02T19:33:07.858Z",
+        "paidAmount": {
+          "amount": "25.99",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Michał",
+          "lastName": "Kuziak",
+          "street": "Grzegórzecka 77, m. 25",
+          "city": "Kraków",
+          "zipCode": "31-559",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48662141567",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "0aafb43c-e66a-46ec-9cc4-29bb39ebb483",
+          "name": "Allegro One Box"
+        },
+        "pickupPoint": {
+          "id": "AL344KR1",
+          "name": "Allegro One Box, zielony automat",
+          "description": "Obok firmy Bonadent",
+          "address": {
+            "street": "Stefana Rogozińskiego 1",
+            "zipCode": "31-559",
+            "city": "Kraków",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "9.99",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T22:59:59.999Z",
+            "to": "2023-12-04T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "96d92f40-9149-11ee-ac18-b18918e4717b",
+          "offer": {
+            "id": "14216010620",
+            "name": "Wybór pism i nauk - Andrzej Towiański",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "16.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "16.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-12-02T19:33:02.742Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "25.99",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-02T19:33:07.858Z",
+      "revision": "1ab823c2"
+    },
+    {
+      "id": "2c135520-8eea-11ee-a6d4-1df14a9c9ccb",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "14194997",
+        "email": "coh1j1eift+3deb5c7c8@allegromail.pl",
+        "login": "jaroo74_2009",
+        "firstName": "Jarek",
+        "lastName": "Miller",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 511 346 536",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Matejki 45/37",
+          "city": "Pabianice",
+          "postCode": "95-200",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "2c5fa0b5-8eea-11ee-84f1-ed3985d126f3",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T15:30:59.474Z",
+        "paidAmount": {
+          "amount": "75.95",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Jarosław",
+          "lastName": "Miller",
+          "street": "św. Rocha 21",
+          "city": "Pabianice",
+          "zipCode": "95-200",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48511346536",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+          "name": "Allegro Paczkomaty InPost"
+        },
+        "pickupPoint": {
+          "id": "PAB01M",
+          "name": "Paczkomat PAB01M",
+          "description": "Na parkingu przy sklepie Żabka",
+          "address": {
+            "street": "św. Jana 9",
+            "zipCode": "95-200",
+            "city": "Pabianice",
+            "countryCode": "PL"
+          }
+        },
+        "cost": {
+          "amount": "10.95",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-06T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "2c0a7b81-8eea-11ee-a6d4-1df14a9c9ccb",
+          "offer": {
+            "id": "14797946768",
+            "name": "Nikifor Epifanii Drowniak",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "45.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-11-29T19:05:18.797Z"
+        },
+        {
+          "id": "2c0a7b80-8eea-11ee-a6d4-1df14a9c9ccb",
+          "offer": {
+            "id": "14215068662",
+            "name": "Wiersze Wysłane Sopot 2008",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "20.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "20.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-11-29T19:05:18.797Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "75.95",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T15:30:59.474Z",
+      "revision": "819b5836"
+    },
+    {
+      "id": "7a092e50-8ede-11ee-84c0-5fc57c71d1e5",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "111992599",
+        "email": "spf6uuhvye+35d7ddf33@allegromail.pl",
+        "login": "Client:111992599",
+        "firstName": "Marta",
+        "lastName": "Maślak",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 784 183 087",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Miączyn kolonia 6",
+          "city": "Miączyn",
+          "postCode": "22-455",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "7a555289-8ede-11ee-891d-9d3b1b7f6737",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T15:30:56.656Z",
+        "paidAmount": {
+          "amount": "28.99",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Marta",
+          "lastName": "Maślak",
+          "street": "Miączyn kolonia 6",
+          "city": "Miączyn",
+          "zipCode": "22-455",
+          "countryCode": "PL",
+          "companyName": null,
+          "phoneNumber": "+48784183087",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "c3066682-97a3-42fe-9eb5-3beeccab840c",
+          "name": "Allegro Kurier DPD"
+        },
+        "pickupPoint": null,
+        "cost": {
+          "amount": "13.99",
+          "currency": "PLN"
+        },
+        "smart": false,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": false,
+        "address": null,
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "7a002da0-8ede-11ee-84c0-5fc57c71d1e5",
+          "offer": {
+            "id": "14596651106",
+            "name": "Śpiewnik Kościelny Ks. J. Siedlecki",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "15.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "15.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-11-29T17:43:02.176Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "28.99",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T15:30:56.656Z",
+      "revision": "b3a81206"
+    },
+    {
+      "id": "908ebc20-8e08-11ee-bc31-a35a926d4082",
+      "messageToSeller": null,
+      "buyer": {
+        "id": "34929043",
+        "email": "zhkg9cr575+2016ea338@allegromail.pl",
+        "login": "btb2013",
+        "firstName": "Paweł",
+        "lastName": "Kołata",
+        "companyName": null,
+        "guest": false,
+        "personalIdentity": null,
+        "phoneNumber": "+48 609 772 993",
+        "preferences": {
+          "language": "pl-PL"
+        },
+        "address": {
+          "street": "Saczyn 53a",
+          "city": "Godziesze",
+          "postCode": "62-872",
+          "countryCode": "PL"
+        }
+      },
+      "payment": {
+        "id": "7f08e701-929b-11ee-a530-a333a4f0e0fc",
+        "type": "ONLINE",
+        "provider": "PAYU",
+        "finishedAt": "2023-12-04T11:52:05.047Z",
+        "paidAmount": {
+          "amount": "560.00",
+          "currency": "PLN"
+        },
+        "reconciliation": null
+      },
+      "status": "READY_FOR_PROCESSING",
+      "fulfillment": {
+        "status": "PROCESSING",
+        "shipmentSummary": {
+          "lineItemsSent": "NONE"
+        }
+      },
+      "delivery": {
+        "address": {
+          "firstName": "Paweł",
+          "lastName": "Kołata",
+          "street": "Pułaskiego 31/3",
+          "city": "Kalisz",
+          "zipCode": "62-800",
+          "countryCode": "PL",
+          "companyName": "BTB Paweł Kołata",
+          "phoneNumber": "+48609772993",
+          "modifiedAt": null
+        },
+        "method": {
+          "id": "c3066682-97a3-42fe-9eb5-3beeccab840c",
+          "name": "Allegro Kurier DPD"
+        },
+        "pickupPoint": null,
+        "cost": {
+          "amount": "0.00",
+          "currency": "PLN"
+        },
+        "smart": true,
+        "time": {
+          "from": "2023-12-05T23:00:00Z",
+          "to": "2023-12-07T22:59:59.999Z",
+          "guaranteed": null,
+          "dispatch": {
+            "from": "2023-12-04T23:00:00Z",
+            "to": "2023-12-05T22:59:59.999Z"
+          }
+        },
+        "calculatedNumberOfPackages": 1
+      },
+      "invoice": {
+        "required": true,
+        "address": {
+          "street": "Pułaskiego 31/3",
+          "city": "Kalisz",
+          "zipCode": "62-800",
+          "countryCode": "PL",
+          "company": {
+            "name": "BTB Paweł Kołata",
+            "taxId": "6181853369"
+          },
+          "naturalPerson": null
+        },
+        "dueDate": null
+      },
+      "lineItems": [
+        {
+          "id": "90887a90-8e08-11ee-bc31-a35a926d4082",
+          "offer": {
+            "id": "14787251868",
+            "name": "Ku czci poległych lotników - Praca zbiorowa",
+            "external": null
+          },
+          "quantity": 1,
+          "originalPrice": {
+            "amount": "560.00",
+            "currency": "PLN"
+          },
+          "price": {
+            "amount": "560.00",
+            "currency": "PLN"
+          },
+          "reconciliation": null,
+          "selectedAdditionalServices": [],
+          "vouchers": [],
+          "boughtAt": "2023-11-28T16:10:06.068Z"
+        }
+      ],
+      "surcharges": [],
+      "discounts": [],
+      "note": null,
+      "marketplace": {
+        "id": "allegro-pl"
+      },
+      "summary": {
+        "totalToPay": {
+          "amount": "560.00",
+          "currency": "PLN"
+        }
+      },
+      "updatedAt": "2023-12-04T11:52:05.047Z",
+      "revision": "c6d6e60f"
+    }
+  ],
+  "count": 45,
+  "totalCount": 45
+}
