@@ -1,3 +1,4 @@
+
 resource "nsxt_policy_gateway_policy" "gateway_policy" {
   display_name    = "${var.env_name}-gateway-policy"
   category        = "LocalGatewayRules"
@@ -72,158 +73,115 @@ resource "nsxt_policy_gateway_policy" "gateway_policy" {
   }
 
   rule {
-    display_name       = "allow-3101"
+    display_name       = "allow-443-0.0.0.0"
     action             = "ALLOW"
     direction          = "IN_OUT"
     ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.74.85.2/32"]
+    source_groups      = ["0.0.0.0/0"]
     destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3101_service.path]
+    services           = [nsxt_policy_service.port_443_service.path]
     scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
   }
 
   rule {
-    display_name       = "allow-3115"
+    display_name       = "allow-6443-0.0.0.0"
     action             = "ALLOW"
     direction          = "IN_OUT"
     ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.74.85.2/32", "10.113.97.251/32", "131.237.94.132/32", "10.113.99.139/32"]
+    source_groups      = ["0.0.0.0/0"]
     destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3115_service.path]
+    services           = [nsxt_policy_service.port_6443_service.path]
     scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
   }
 
   rule {
-    display_name       = "allow-3116"
+    display_name       = "allow-80-0.0.0.0"
     action             = "ALLOW"
     direction          = "IN_OUT"
     ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.31.45.109/32", "145.45.13.166/32"]
+    source_groups      = ["0.0.0.0/0"]
     destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3116_service.path]
+    services           = [nsxt_policy_service.port_80_service.path]
     scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
   }
 
   rule {
-    display_name       = "allow-3117"
+    display_name       = "allow-12200-10.55.53.0"
     action             = "ALLOW"
     direction          = "IN_OUT"
     ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.113.97.251/32", "10.113.99.139/32"]
+    source_groups      = ["10.55.53.0/24"]
     destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3117_service.path]
+    services           = [nsxt_policy_service.port_12200_service.path]
     scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
   }
 
   rule {
-    display_name       = "allow-3118"
+    display_name       = "allow-12200-10.55.54.0"
     action             = "ALLOW"
     direction          = "IN_OUT"
     ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.31.45.109/32", "145.45.13.166/32"]
+    source_groups      = ["10.55.54.0/24"]
     destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3118_service.path]
+    services           = [nsxt_policy_service.port_12200_service.path]
     scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
   }
 
   rule {
-    display_name       = "allow-3119"
+    display_name       = "allow-12200-10.55.8.192"
     action             = "ALLOW"
     direction          = "IN_OUT"
     ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.113.97.251/32", "10.113.99.139/32"]
+    source_groups      = ["10.55.8.192/26"]
     destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3119_service.path]
+    services           = [nsxt_policy_service.port_12200_service.path]
     scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
   }
 
   rule {
-    display_name       = "allow-3201"
+    display_name       = "allow-12200-10.55.63.192"
     action             = "ALLOW"
     direction          = "IN_OUT"
     ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.74.85.2/32"]
+    source_groups      = ["10.55.63.192/26"]
     destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3201_service.path]
+    services           = [nsxt_policy_service.port_12200_service.path]
     scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
   }
 
   rule {
-    display_name       = "allow-3208"
+    display_name       = "allow-12201-10.55.53.0"
     action             = "ALLOW"
     direction          = "IN_OUT"
     ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.113.97.251/32"]
+    source_groups      = ["10.55.53.0/24"]
     destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3208_service.path]
+    services           = [nsxt_policy_service.port_12201_service.path]
     scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
   }
 
   rule {
-    display_name       = "allow-3215"
+    display_name       = "allow-12201-10.55.54.0"
     action             = "ALLOW"
     direction          = "IN_OUT"
     ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.74.85.2/32", "10.113.97.251/32", "10.48.106.250/32", "131.237.94.132/32", "10.113.99.139/32"]
+    source_groups      = ["10.55.54.0/24"]
     destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3215_service.path]
+    services           = [nsxt_policy_service.port_12201_service.path]
     scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
   }
 
   rule {
-    display_name       = "allow-3216"
+    display_name       = "allow-12201-10.55.8.192"
     action             = "ALLOW"
     direction          = "IN_OUT"
     ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.31.45.109/32", "145.45.13.166/32"]
+    source_groups      = ["10.55.8.192/26"]
     destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3216_service.path]
+    services           = [nsxt_policy_service.port_12201_service.path]
     scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
   }
 
-  rule {
-    display_name       = "allow-3217"
-    action             = "ALLOW"
-    direction          = "IN_OUT"
-    ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.113.97.251/32", "10.113.99.139/32"]
-    destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3217_service.path]
-    scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
-  }
-
-  rule {
-    display_name       = "allow-3278"
-    action             = "ALLOW"
-    direction          = "IN_OUT"
-    ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.55.7.192/26"]
-    destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3278_service.path]
-    scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
-  }
-
-  rule {
-    display_name       = "allow-3315"
-    action             = "ALLOW"
-    direction          = "IN_OUT"
-    ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.113.99.139/32"]
-    destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3315_service.path]
-    scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
-  }
-
-  rule {
-    display_name       = "allow-3317"
-    action             = "ALLOW"
-    direction          = "IN_OUT"
-    ip_version         = "IPV4_IPV6"
-    source_groups      = ["10.113.99.139/32"]
-    destination_groups = ["${var.k8s_lb_public_ip}"]
-    services           = [nsxt_policy_service.port_3317_service.path]
-    scope              = [data.nsxt_policy_tier1_gateway.k8s_tier1_router.path]
-  }
 
   rule {
     display_name       = "allow-12200-12201"
@@ -339,12 +297,12 @@ resource "nsxt_policy_service" "ports_3290_3299_service" {
   }
 }
 
-resource "nsxt_policy_service" "port_3101_service" {
-  display_name = "3101-port-service"
+resource "nsxt_policy_service" "port_443_service" {
+  display_name = "443-port-service"
   l4_port_set_entry {
-    display_name      = "3101-port"
-    protocol          = "TCP"
-    destination_ports = ["3101"]
+    display_name      = "443-port"
+    protocol          = "tcp"
+    destination_ports = ["443"]
   }
 
   tag {
@@ -353,12 +311,12 @@ resource "nsxt_policy_service" "port_3101_service" {
   }
 }
 
-resource "nsxt_policy_service" "port_3115_service" {
-  display_name = "3115-port-service"
+resource "nsxt_policy_service" "port_6443_service" {
+  display_name = "6443-port-service"
   l4_port_set_entry {
-    display_name      = "3115-port"
-    protocol          = "TCP"
-    destination_ports = ["3115"]
+    display_name      = "6443-port"
+    protocol          = "tcp"
+    destination_ports = ["6443"]
   }
 
   tag {
@@ -367,164 +325,12 @@ resource "nsxt_policy_service" "port_3115_service" {
   }
 }
 
-resource "nsxt_policy_service" "port_3116_service" {
-  display_name = "3116-port-service"
+resource "nsxt_policy_service" "port_80_service" {
+  display_name = "80-port-service"
   l4_port_set_entry {
-    display_name      = "3116-port"
-    protocol          = "TCP"
-    destination_ports = ["3116"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-
-resource "nsxt_policy_service" "port_3117_service" {
-  display_name = "3117-port-service"
-  l4_port_set_entry {
-    display_name      = "3117-port"
-    protocol          = "TCP"
-    destination_ports = ["3117"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-
-resource "nsxt_policy_service" "port_3118_service" {
-  display_name = "3118-port-service"
-  l4_port_set_entry {
-    display_name      = "3118-port"
-    protocol          = "TCP"
-    destination_ports = ["3118"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-
-resource "nsxt_policy_service" "port_3119_service" {
-  display_name = "3119-port-service"
-  l4_port_set_entry {
-    display_name      = "3119-port"
-    protocol          = "TCP"
-    destination_ports = ["3119"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-
-resource "nsxt_policy_service" "port_3201_service" {
-  display_name = "3201-port-service"
-  l4_port_set_entry {
-    display_name      = "3201-port"
-    protocol          = "TCP"
-    destination_ports = ["3201"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-
-resource "nsxt_policy_service" "port_3215_service" {
-  display_name = "3215-port-service"
-  l4_port_set_entry {
-    display_name      = "3215-port"
-    protocol          = "TCP"
-    destination_ports = ["3215"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-
-resource "nsxt_policy_service" "port_3216_service" {
-  display_name = "3216-port-service"
-  l4_port_set_entry {
-    display_name      = "3216-port"
-    protocol          = "TCP"
-    destination_ports = ["3216"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-
-resource "nsxt_policy_service" "port_3217_service" {
-  display_name = "3217-port-service"
-  l4_port_set_entry {
-    display_name      = "3217-port"
-    protocol          = "TCP"
-    destination_ports = ["3217"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-
-resource "nsxt_policy_service" "port_3278_service" {
-  display_name = "3278-port-service"
-  l4_port_set_entry {
-    display_name      = "3278-port"
-    protocol          = "TCP"
-    destination_ports = ["3278"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-
-resource "nsxt_policy_service" "port_3315_service" {
-  display_name = "3315-port-service"
-  l4_port_set_entry {
-    display_name      = "3315-port"
-    protocol          = "TCP"
-    destination_ports = ["3315"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-resource "nsxt_policy_service" "port_3317_service" {
-  display_name = "3317-port-service"
-  l4_port_set_entry {
-    display_name      = "3317-port"
-    protocol          = "TCP"
-    destination_ports = ["3317"]
-  }
-
-  tag {
-    scope = var.env_name
-    tag   = "gateway_policy"
-  }
-}
-resource "nsxt_policy_service" "port_3208_service" {
-  display_name = "3208-port-service"
-  l4_port_set_entry {
-    display_name      = "3208-port"
-    protocol          = "TCP"
-    destination_ports = ["3208"]
+    display_name      = "80-port"
+    protocol          = "tcp"
+    destination_ports = ["80"]
   }
 
   tag {
@@ -537,7 +343,49 @@ resource "nsxt_policy_service" "port_12200_service" {
   display_name = "12200-port-service"
   l4_port_set_entry {
     display_name      = "12200-port"
-    protocol          = "UDP"
+    protocol          = "udp"
+    destination_ports = ["12200"]
+  }
+
+  tag {
+    scope = var.env_name
+    tag   = "gateway_policy"
+  }
+}
+
+resource "nsxt_policy_service" "port_12200_service" {
+  display_name = "12200-port-service"
+  l4_port_set_entry {
+    display_name      = "12200-port"
+    protocol          = "udp"
+    destination_ports = ["12200"]
+  }
+
+  tag {
+    scope = var.env_name
+    tag   = "gateway_policy"
+  }
+}
+
+resource "nsxt_policy_service" "port_12200_service" {
+  display_name = "12200-port-service"
+  l4_port_set_entry {
+    display_name      = "12200-port"
+    protocol          = "udp"
+    destination_ports = ["12200"]
+  }
+
+  tag {
+    scope = var.env_name
+    tag   = "gateway_policy"
+  }
+}
+
+resource "nsxt_policy_service" "port_12200_service" {
+  display_name = "12200-port-service"
+  l4_port_set_entry {
+    display_name      = "12200-port"
+    protocol          = "udp"
     destination_ports = ["12200"]
   }
 
@@ -551,7 +399,7 @@ resource "nsxt_policy_service" "port_12201_service" {
   display_name = "12201-port-service"
   l4_port_set_entry {
     display_name      = "12201-port"
-    protocol          = "UDP"
+    protocol          = "udp"
     destination_ports = ["12201"]
   }
 
@@ -561,12 +409,12 @@ resource "nsxt_policy_service" "port_12201_service" {
   }
 }
 
-resource "nsxt_policy_service" "port_3408_service" {
-  display_name = "3408-port-service"
+resource "nsxt_policy_service" "port_12201_service" {
+  display_name = "12201-port-service"
   l4_port_set_entry {
-    display_name      = "3408-port"
-    protocol          = "TCP"
-    destination_ports = ["3408"]
+    display_name      = "12201-port"
+    protocol          = "udp"
+    destination_ports = ["12201"]
   }
 
   tag {
@@ -574,6 +422,21 @@ resource "nsxt_policy_service" "port_3408_service" {
     tag   = "gateway_policy"
   }
 }
+
+resource "nsxt_policy_service" "port_12201_service" {
+  display_name = "12201-port-service"
+  l4_port_set_entry {
+    display_name      = "12201-port"
+    protocol          = "udp"
+    destination_ports = ["12201"]
+  }
+
+  tag {
+    scope = var.env_name
+    tag   = "gateway_policy"
+  }
+}
+
 
 resource "nsxt_policy_service" "ssh_port_service" {
   display_name = "ssh-port-service"
@@ -594,4 +457,3 @@ resource "nsxt_policy_service" "ssh_port_service" {
 data "nsxt_policy_tier1_gateway" "k8s_tier1_router" {
   display_name = "${var.env_name}-dmz"
 }
-
